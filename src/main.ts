@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import { LitElement, html, customElement, property, TemplateResult } from 'lit-element';
-import FlipClock from 'FlipClock';
+import FlipClock from 'flipclock';
 import { HomeAssistant } from 'custom-card-helpers';
 
 import { FlipClockCardConfig, Timezone } from './types';
