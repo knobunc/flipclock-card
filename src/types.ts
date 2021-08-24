@@ -8,6 +8,7 @@ export interface FlipClockCardConfig {
 export interface TimeOptions {
   face: string;
   showSeconds: boolean;
+  showMeridium: boolean;
 }
 
 export interface DateOptions {

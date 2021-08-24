@@ -75,6 +75,7 @@ This card is available in [HACS](https://github.com/custom-components/hacs/issue
 |------|----|-------|-----:|-------------|
 | face | string | TwentyFourHourClock | v0.0.1 | The clock face. Default 24 hour clock. See  [clock faces](#clock-faces) for available values.
 | showSeconds | boolean  | false | v0.0.1 | True to show the seconds, otherwise false.
+| showMeridium | boolean  | true | v0.0.1 | False to hide the AM/PM on the TwelveHour face.
 
 #### Date options
 | Name | Type | Default | Since | Description |

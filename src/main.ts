@@ -42,6 +42,7 @@ export class FlipClockCard extends LitElement {
         time: {
           face: 'TwentyFourHourClock',
           showSeconds: false,
+          showMeridium: true,
         },
         timezones: [],
         date: {
@@ -114,6 +115,7 @@ export class FlipClockCard extends LitElement {
       new FlipClock(el, this._date, {
         face: this._config.time.face,
         showSeconds: this._config.time.showSeconds,
+        showMeridium: this._config.time.showMeridium,
       });
 
       return html`${el}`;
